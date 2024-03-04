@@ -44,7 +44,7 @@ console.log(number0, number00);
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 const myName = "Sanseverino";
-
+// myName = "Tiziano";
 console.log(myName);
 /* SCRIVI QUI LA TUA RISlet myName = "Tiziano";POSTA */
 //let myName = "Tiziano";  - mi da sempre errore , comunque il concetto è che una const non puo cambiare valore.
@@ -66,3 +66,4 @@ console.log(y);
 let name1 = "jhon";
 let name2 = "Jhon";
 console.log(name1 === name2);
+console.log(name1.toLowerCase === name2.toLowerCase);
